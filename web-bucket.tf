@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "pr-web-bucket" {
-  bucket = "pr-web-bucket-20221222"
+  bucket = "terraform-cloud-bucket-cloudmagic"
   acl    = "public-read"
   policy = <<EOF
 {
@@ -13,7 +13,7 @@ resource "aws_s3_bucket" "pr-web-bucket" {
               "s3:GetObject"
           ],
           "Resource": [
-              "arn:aws:s3:::pr-web-bucket-20221222/*"
+              "arn:aws:s3:::terraform-cloud-bucket-cloudmagic/*"
           ]
       }
   ]
