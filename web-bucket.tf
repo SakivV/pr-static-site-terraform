@@ -26,7 +26,8 @@ website {
 
 tags = {
   "env" = "Prod"
-  "managedbytf" = "true"
+  "ManagedByTerraform" = "true"
+  "Company" = "CloudMagic"
 }
 
 }
