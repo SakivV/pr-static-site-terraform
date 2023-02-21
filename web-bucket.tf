@@ -25,7 +25,7 @@ website {
   }
 
 tags = {
-  "env" = "dev"
+  "env" = "Prod"
   "managedbytf" = "true"
 }
 
